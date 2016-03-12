@@ -1,0 +1,24 @@
+{
+  "name": "@coorpacademy/eslint-config-coorpacademy",
+  "version": "1.0.0",
+  "description": "Collection of ESLint rules",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-ava": "^1.2.0",
+    "eslint-plugin-mocha-only": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoorpAcademy/eslint-config-coorpacademy.git"
+  },
+  "author": "Jeroen Engels <jfm.engels@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoorpAcademy/eslint-config-coorpacademy/issues"
+  },
+  "homepage": "https://github.com/CoorpAcademy/eslint-config-coorpacademy#readme"
+}
