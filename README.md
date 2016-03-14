@@ -16,9 +16,9 @@ Create a `.eslintrc` file if you don't already have one, then create/update the 
 {
   "...": "...",
   "extends": [
-    "@coorpacademy/coorpacademy",
-    "@coorpacademy/coorpacademy/ava",
-    "@coorpacademy/coorpacademy/mocha"
+    "coorpacademy",
+    "coorpacademy/ava",
+    "coorpacademy/mocha"
   ],
   "...": "..."
 }
