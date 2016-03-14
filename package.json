@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-coorpacademy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Collection of ESLint rules",
   "main": "index.js",
   "dependencies": {
