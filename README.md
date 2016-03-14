@@ -7,7 +7,7 @@ It creates a list of recommended rules, which is to be enabled in each project.
 ## How to add it to the project
 
 ```console
-npm install --save-dev @coorpacademy/eslint-config
+npm install --save-dev @coorpacademy/eslint-config-coorpacademy
 ```
 
 Create a `.eslintrc` file if you don't already have one, then create/update the `extends` key like the following (only take what is appropriate):
