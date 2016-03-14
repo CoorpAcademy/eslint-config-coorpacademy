@@ -38,7 +38,6 @@ dump.rdb
 *.map
 .netrc
 .bower.json
-.travis.yml
 desktop.ini
 *.sublime-project
 *.sublime-workspace

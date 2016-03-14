@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: npm
+  email: dev@coorpacademy.com
+  api_key:
+    secure: HrOwsWu1Nl5WwIzL3eCysJ1PX+oymHuvOv0HtVG0P6p5din3kiTSr8gMS0qNEVkGrHQpuDCyXciIltlVG24HwGZEHrlj5H31VoOgSL64KHk45NStq2ptTSPsOS+DbIILaxR4B/lNJr1GC+Ek5vUyf+batUefXTP/w0cr/P4w4Xq/Q7wPzD/IlBpOquE0K9m+w0LzBqo5J8+yVDucp4G0a4Qu114iGCGZZr442MhDRKssa6GWMP6IXUzTQm6AIce/ldV9QEQTJJwE/Q1bWTVl3Px11Yf3b2iVsk3h87HOW0dozglKTTjvHLWUUmSZP2oM44IKO1vgpCtk2cUQvVVzarLZ+mYyiPj6B4WqKPaKTjnVvRT1zrHcCwNU7U1BGmZ17AaLQxb1QZYfOpR2QbKjVSKzjAXAFdwZ3WgySKaGWtciERdbBzGmw2s5QrfME4vXlt+jZu8w29Ml7MStelMNCzDmKh1ggkZ1u2MyA4/PzQrTBuVxqmmdWewz/Smq5Ilb/oqDbjg48qNh9W6Vjketq7T2kKAvayM8S0Cd3Rgs4bABV6rR0NmYpPe6ZsC1XZnB9xAwWkHyDtsR8ClgfLJF9VaM892WCga8Tk1s1qYO1AI7idtbVLZuf+Tp5SjC/rIxQv8pbsX1QDVyH3m3qc4k9oaU06r5J80QW9LFLW3PssE=
+  on:
+      tags: true
