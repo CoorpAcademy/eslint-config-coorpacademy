@@ -7,18 +7,10 @@ It creates a list of recommended rules, which is to be enabled in each project.
 ## How to add it to the project
 
 ```console
-npm install --save-dev eslint-config-coorpacademy eslint-plugin-ava eslint-plugin-mocha-only
+npm install --save-dev eslint-config-coorpacademy
 ```
 
 Create a `.eslintrc` file if you don't already have one, then create/update the `extends` key like the following:
-
-```json
-{
-  "extends": "coorpacademy"
-}
-```
-
-You can pick also pick rule configurations individually:
 ```json
   "extends": [
     "coorpacademy/core",
@@ -27,6 +19,13 @@ You can pick also pick rule configurations individually:
   ]
 }
 ```
+
+Available rule sets are:
+- [core](./core.js): Core ESLint rules
+- [ava](./ava.js): Rules for when using AVA (need to install `eslint-plugin-ava`)
+- [es20XX](./es20XX.js): Rules for when using ES2015+ syntax
+- [jsx](./jsx.js): Rules for when using ES2015+ syntax (need to install `eslint-plugin-jsx`)
+- [mocha](./mocha.js): Rules for when using Mocha (need to install `eslint-plugin-mocha-only`)
 
 ## Semantic versioning
 

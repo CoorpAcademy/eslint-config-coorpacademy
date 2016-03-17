@@ -8,6 +8,6 @@ module.exports = {
     'mocha-only'
   ],
   rules: {
-    'mocha-only/mocha-only': 2
+    'mocha-only/mocha-only': 'error'
   }
 };
