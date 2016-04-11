@@ -23,7 +23,7 @@ module.exports = {
 		'array-bracket-spacing': ['error', 'never'],
 		'array-callback-return': 'error',
 		'arrow-body-style': 'off',
-		'arrow-parens': ['error', 'always'],
+		'arrow-parens': ['error', 'as-needed'],
 		'arrow-spacing': 'error',
 		'block-scoped-var': 'error',
 		'block-spacing': 'off',
