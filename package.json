@@ -8,7 +8,6 @@
     "core.js",
     "mocha.js"
   ],
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^2.4.0",
     "eslint-find-new-rules": "^1.0.3",
