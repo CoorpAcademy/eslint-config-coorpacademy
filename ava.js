@@ -12,9 +12,11 @@ module.exports = {
 		sourceType: 'module'
 	},
 	rules: {
+		'ava/assertion-message': ['off', 'always'],
 		'ava/max-asserts': ['off', 5],
 		'ava/no-cb-test': 'off',
 		'ava/no-identical-title': 'error',
+		'ava/no-ignored-test-files': 'error',
 		'ava/no-invalid-end': 'error',
 		'ava/no-only-test': 'error',
 		'ava/no-skip-assert': 'error',
@@ -25,7 +27,9 @@ module.exports = {
 		'ava/prefer-power-assert': 'off',
 		'ava/test-ended': 'error',
 		'ava/test-title': ['error', 'always'],
+		'ava/use-t-well': 'error',
 		'ava/use-t': 'error',
-		'ava/use-test': 'error'
+		'ava/use-test': 'error',
+		'ava/use-true-false': 'error'
 	}
 };
