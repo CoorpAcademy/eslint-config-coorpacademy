@@ -3,11 +3,6 @@
   "version": "2.0.0",
   "description": "Collection of ESLint rules",
   "main": "index.js",
-  "files": [
-    "ava.js",
-    "core.js",
-    "mocha.js"
-  ],
   "dependencies": {},
   "devDependencies": {
     "eslint": "^2.4.0",
