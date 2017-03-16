@@ -1,5 +1,7 @@
 # Coorpacademy ESLint config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CoorpAcademy/eslint-config-coorpacademy.svg)](https://greenkeeper.io/)
+
 This library provides a common ESLint config for all Coorpacademy projects.
 
 It creates a list of recommended rules, which is to be enabled in each project.
